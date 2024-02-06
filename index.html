@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container"><div style="padding-bottom: 100px ;"></div>
+            <div class="name"> <h2>Created by <br><span>muhammad usman</span></h2></div>
+           
+        </div>
+        <div class="container Clock">
+
+            <div id="time">
+                <div class="circle" style="--color: #ff2972">
+                    <div class="dots hour_dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70" id="hour"></circle>
+                    </svg>
+                    <div id="hours">00</div>
+                </div>
+                <div class="circle" style="--color: #fee800">
+                    <div class="dots min_dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70" id="min"></circle>
+                    </svg>
+                    <div id="minutes">00</div>
+                </div>
+                <div class="circle" style="--color: #04fc43">
+                    <div class="dots sec_dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70" id="sec"></circle>
+                    </svg>
+                    <div id="seconds">00</div>
+                </div>
+                <div class="ap">
+                    <div id="ampm">AM</div>
+                </div>
+            </div>
+        
+        </div>
+</body>
+
+</html>
